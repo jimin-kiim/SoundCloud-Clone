@@ -2,6 +2,7 @@
 # Created by https://www.toptal.com/developers/gitignore/api/django,macos,python,venv,visualstudiocode
 # Edit at https://www.toptal.com/developers/gitignore?templates=django,macos,python,venv,visualstudiocode
 .DS_Store
+secrets.json
 ### Django ###
 *.log
 *.pot
