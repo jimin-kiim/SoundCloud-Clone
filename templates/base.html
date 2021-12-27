@@ -11,49 +11,50 @@
 <body>
     <header class="header">
         <img>
-        <nav>
-            <ul class="nav">
-                <li><span>Home</span></li>
-                <li><span>Stream</span></li>
-                <li><span>Library</span></li>
-            </ul>
-        </nav>
+        <button class="header-item nav-item" >Home</button>
+        <button class="header-item nav-item">Stream</button>
+        <button class="header-item nav-item">Library</button>
         <form>
-            <input>
+            <input class="header-search">
             <button></button>
         </form>
-        <span>Upload</span>
-        <img>
-        <span>Jimin Kim</span>
-        <img>
-        <img>
-        <img>
+        <button class="header-item"><span>Upload</span></button>
+        <button class="header-item">
+            <img>
+            <span>Jimin Kim</span>
+        </button>
+        <button class="header-item nav-item2"></button>
+        <button class="header-item nav-item2"></button>
+        <button class="header-item nav-item2"></button>
     </header>
     <main>
         {% block content %}
         {% endblock %}
     </main>
-    <div>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
+    <div class="control_bar">
+        <button class="control-button"></button>
+        <button class="control-button"></button>
+        <button class="control-button"></button>
+        <button class="control-button"></button>
+        <button class="control-button"></button>
         <div>
+            <audio controls>
+                <source scr="" type="">
+            </audio>
             <span></span>
             <div></div>
             <span></span>
         </div>
-        <button></button>
+        <button class="control-button"></button>
         <div>
             <img>
             <div>
                 <span></span>
                 <span></span>
             </div>
-            <button></button>
-            <button></button>
-            <button></button>
+            <button class="control-button"></button>
+            <button class="control-button"></button>
+            <button class="control-button"> </button>
         </div>
     </div>
 </body>
