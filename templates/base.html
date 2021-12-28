@@ -6,20 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"/>
     <title>Sound Cloud</title>
 </head>
 <body>
     <header class="header">
-        <img>
+        <button class="home" ></button>
         <button class="header-item nav-item" >Home</button>
         <button class="header-item nav-item">Stream</button>
         <button class="header-item nav-item">Library</button>
         <form>
-            <input class="header-search">
-            <button></button>
+            <input class="header-search" placeholder="Search">
+            <button class="search-button"><i class="fas fa-search"></i></button>
         </form>
-        <button class="header-item"><span>Upload</span></button>
-        <button class="header-item">
+        <button class="header-item upload"><span>Upload</span></button>
+        <button class="header-item profile">
             <img>
             <span>Jimin Kim</span>
         </button>
